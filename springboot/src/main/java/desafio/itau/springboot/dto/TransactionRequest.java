@@ -16,8 +16,15 @@ public class TransactionRequest {
         return valor;
     }
 
+    public void setValor(Double valor) {
+        this.valor = valor;
+    }
+
     public OffsetDateTime getDataHora() {
         return dataHora;
     }
-}
 
+    public void setDataHora(OffsetDateTime dataHora) {
+        this.dataHora = dataHora;
+    }
+}
